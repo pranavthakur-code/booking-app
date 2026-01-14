@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Plus Jakarta Sans", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +59,18 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        healthcare: {
+          teal: "hsl(var(--healthcare-teal))",
+          "teal-light": "hsl(var(--healthcare-teal-light))",
+          blue: "hsl(var(--healthcare-blue))",
+          "blue-light": "hsl(var(--healthcare-blue-light))",
+          green: "hsl(var(--healthcare-green))",
+          "green-light": "hsl(var(--healthcare-green-light))",
+          orange: "hsl(var(--healthcare-orange))",
+          "orange-light": "hsl(var(--healthcare-orange-light))",
+          purple: "hsl(var(--healthcare-purple))",
+          "purple-light": "hsl(var(--healthcare-purple-light))",
         },
       },
       borderRadius: {
